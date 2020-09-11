@@ -1,0 +1,57 @@
+------ Pluralsight rules -------
+
+
+$..Title.Value
+$..Url.Value
+$..Skill Levels.Value
+$..authors.Value
+$..cludo-date.Value
+$..rating.Value
+$..rating-count.Value
+$..roles.Value
+$..duration.Value
+$..thumbnail.Value
+
+
+------Coursera rules ---------
+
+$..courses.elements[:].id
+$..courses.elements[:].name
+$..courses.elements[:].partners..name
+$..courses.elements[:].slug
+$..courses.elements[:].photoUrl
+$..courses.elements[:]..avgLearningHoursAdjusted
+$..courses.elements[:].workload
+$..courses.elements[:].level  (handle null values)
+$..courses.elements[:]..commentCount  (handle null values)
+$..courses.elements[:]..averageFiveStarRating  (handle null values)
+$..courses.elements[:]..ratingCount  (handle null values)
+
+
+-------edx rules -------------
+
+i = page(pagination)
+
+$..results[i].[:].uuid
+$..results[i]..title.value
+$..results[0]..partner[0].value
+$..results[i]..subject
+$..results[i]..level[0]
+$..results[0]..primary_description.value
+$..results[i].[:].recent_enrollment_count
+$..results[i].[:].marketing_url
+$..results[i].[:].card_image_url
+
+---------futurelearn -----------
+
+
+$..cards..id
+$..cards..title
+$..cards..path
+$..cards..introduction
+$..cards..imageUrl
+$..cards[:].label (owner)
+$..cards..numberOfWeeks
+$..cards..totalReviews (handle null values)
+$..cards..averageReviewScore (handle null values)
+
