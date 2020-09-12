@@ -19,9 +19,9 @@ NEWSPIDER_MODULE = 'course_scraper.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
-CONCURRENT_REQUESTS = 1
+CONCURRENT_REQUESTS = 32
 
-CONCURRENT_REQUESTS_PER_DOMAIN = 1
+CONCURRENT_REQUESTS_PER_DOMAIN = 32
 
 DOWNLOAD_TIMEOUT = 600
 
@@ -58,12 +58,12 @@ DOWNLOAD_TIMEOUT = 600
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
    'course_scraper.middlewares.CourseScraperDownloaderMiddleware': 543,
-   # 'scrapy_crawlera.CrawleraMiddleware': 610
+   'scrapy_crawlera.CrawleraMiddleware': 610
 }
 
-# CRAWLERA_ENABLED = True
+CRAWLERA_ENABLED = True
 
-# CRAWLERA_APIKEY = 'adb5925b628547c6b17135ff6237f87f'
+CRAWLERA_APIKEY = 'adb5925b628547c6b17135ff6237f87f'
 
 DEFAULT_REQUEST_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
