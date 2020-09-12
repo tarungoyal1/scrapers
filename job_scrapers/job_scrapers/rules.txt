@@ -1,0 +1,10 @@
+-------- Hirist rules -----------
+
+$.jobs[:].id
+$.jobs..title
+$.jobs..location (locations array)
+$.jobs..companyData (embedded doc)
+$.jobs..min
+$.jobs..max
+$.jobs..createdTime
+$.jobs..applyUrl

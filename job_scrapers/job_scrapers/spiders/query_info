@@ -1,0 +1,10 @@
+
+Backend - Python : query id = 9, pagination 0, 31, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=9
+Backend - Java : query id = 5, pagination 0, 49, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=5
+Backend - Golang : query id = 1756, pagination 0, 6, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=1756
+Backend - Ruby : query id = 33, pagination 0, 4, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=33
+Backend - R : query id = 989, pagination 0, 4, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=989
+Backend - Django : query id = 50, pagination 0, 7, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=50
+Backend - Rest API: query id = 2496, pagination 0, 16, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=2496
+Backend - Spring : query id = 46, pagination 0, 13, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=46
+Backend - Hibernate : query id = 46, pagination 0, 9, https://jobseeker-api.hirist.com/jobfeed/-1/jobs?pageNo='+str(i)+'&sort=date&query=47
